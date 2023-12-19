@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>레시피북</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link rel="stylesheet" href="mystyle.css">
+	<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/font-kopub@1.0/kopubdotum.min.css'>
+
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#nav-menu">
+
+		<!-- 네비게이션 영역 시작 -->
+		<nav class="navbar navbar-expand-xl fixed-top" style="background-color: #093B16;">
+			<e class="container-xl">
+				<div class= "h navbar-brand href="#home" style="color: rgb(255, 255, 255); ">
+					<a href="index.html"><img src="book.png" width="40" height="40" alt="로고"  >
+					<!-- <a href="https://www.flaticon.com/free-icons/cooking" title="cooking icons">Cooking icons created by Freepik - Flaticon </a>-->
+					</div></a></e>
+	
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+					aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+					<span class="navbar-toggler-icon"></span>
+					</button>	
+	
+				<div class="e collapse navbar-collapse" id="nav-menu">					
+					<ul class="navbar-nav ms-auto ">
+						<li class="nav-item"><a class="nav-link active" href="#home" style="color: rgb(243, 247, 244);">홈</a></li>
+						<li class="nav-item"><a class="nav-link" href="today.html" style="color: rgb(243, 247, 244);"">오늘의 추천 레시피</a></li>
+						<li class="nav-item"><a class="nav-link" href="month.html" style="color: rgb(243, 247, 244);"">이달의 제철 재료</a></li>
+						
+					</ul>
+						
+					</ul>				
+				</div>	
+		
+		</nav>
+		<!-- 네비게이션 영역 끝 -->
+	
+
+	   <!-- 추천레시피 영역 시작 -->
+	   <section class="bg-light py-5" id="home">
+
+        <div class="container overflow-hidden">
+            <div class="text-center text-white py-5 ">
+                <h2 class="b mb-3 box2">오늘의 추천 레시피</h2>
+            </div>
+
+            <div class="row pb-5 g-4">
+                <div class="col-sm-6 col-lg-4">
+                    <img src="1pasta.jpg" alt="파스타" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="1salad.jpg" alt="샐러드" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="1udong.jpg" alt="우동" class="img-fluid img-thumbnail">
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <!-- 추천레시피 영역 끝 -->
+
+
+    <!-- 제철 음식 영역 시작 -->
+    <section class="container py-5" id="ingrideint">
+
+        <div class="text-center py-5">
+            <h2 class="b">이 달의 제철 재료</h2>
+            <p class="lead text-muted">1년의 끝, 12월의 재철제료는?</p>
+        </div>
+
+        <div class="row justify-content-center align-items-center mb-5">
+            <div class="col-md-4 box1">
+                <a href="oyster.html"><img src="oyster.jpg" alt="굴" class="img-fluid"></a>
+            </div>
+            <div class="col-md-7 col-lg-5 px-lg-5">
+                <h3 class="fw-bold mb-3">굴</h3>
+                <p class="lh-lg c">굴에는 비타민과 미네랄이 풍부하다. 비타민A, B1, B2, B12, 철분, 동, 망간, 요오드, 인, 칼슘, 아연 등이 많다. 참굴의 경우 먹을 수 있는 부분 기준 100g 당 인이 115mg, 철분이 75mg이다. 
+					굴의 당질의 대부분은 글리코겐인데, 이 성분은 소화 흡수가 잘 되어서 어린이나 노약자, 환자 등에게 부담을 주지 않는 식품으로 권장된다.</p>
+                <p class="lh-lg c box1">옛날부터 빈혈과 간장병 후의 체력회복에 좋은 강장식품으로 여겨져 왔다. 한방에서는 땀을 흘리지 않게 하고 신경쇠약에 효과가 있는 것으로 여기며, 
+					뇌일혈과 불면증에 좋다고 한다. 굴껍질은 간장 및 장질환과 두통에 가루내어 달여 먹으면 특효가 있다고 한다.</p>
+            </div>
+
+		 <div class="row justify-content-center align-items-center mb-5 ">
+            <div class="col-md-4 box1">
+               <a href="strawberry.html"> <img src="1stw.jpg" alt="딸기" class="img-fluid"></a>
+            </div>
+            <div class="col-md-7 col-lg-5 px-lg-5">
+                <h3 class="fw-bold mb-3 ">딸기</h3>
+                <p class="lh-lg c">딸기는 100g에 35Kcal의 열량을 내며 탄수화물 8.3g, 칼슘 17㎎, 인 28㎎, 나트륨 1㎎이 들어 있고, 
+					비타민은 카로틴 6㎍, 비타민C 80㎎, B1과 B2 0.05㎎ 등이 들어 있다.</p>
+                <p class="lh-lg c box1">12월 상순부터 6월 상순까지 신선한 딸기가 출하된다. 생딸기는 딸기를 물로 씻은 후 그대로 먹거나 또는 설탕과 우유를 넣어서 먹어도 좋다. 
+					쇼트케이크, 샐러드에도 이용된다. 냉동 이용 방법은 물로 씻은 후 영하 1℃에서 하루 정도 차게 하고, 여기에 설탕 30-40%를 넣고 동결시켜 영하 20℃로 저장한다. 
+					이것은 그대로 이용할 수 있으며 또한 가공 원료로도 쓰이고 냉동 수송에도 적합하다. 잼이나 프리즈업으로도 많이 이용된다. </p>
+            </div>
+
+		</div>
+
+    </section>
+    <!-- 제철 음식 영역 끝 -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
